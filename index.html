@@ -1,0 +1,108 @@
+<link href="Fonts.css" rel="stylesheet" type="text/css">
+<link href="redes.css" rel="stylesheet" type="text/css">
+<style type="text/css"> 
+#capa0{ position:absolute ; z-index:1; } 
+
+/* Estilos para pantallas móviles */
+@media screen and (max-width: 480px) {
+  .elemento {
+    margin: 0 auto;
+  }
+
+  body {
+    font-size: 14px;
+  }
+  .container {
+    padding: 10px;
+  }
+  .menu {
+    display: none;
+  }
+}
+
+
+<style type="text/css">
+#capa1{ position:absolute;
+ z-index:1;
+ background-color:transparent;
+ top:350px;
+ left:850px;
+ width:300px;
+ height:12px;
+}
+#capa2{
+ position:absolute;
+ z-index:0;
+}
+</style>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="lunaplayer-full.js"></script>
+<div id="lunaradio" class="lunaresponsive" style="width:98%; height:450px; -webkit-border-top-left-radius: 20px;
+-webkit-border-top-right-radius: 2px;
+-webkit-border-bottom-right-radius: 2px;
+-webkit-border-bottom-left-radius: 2px;
+-moz-border-radius-topleft: 2px;
+-moz-border-radius-topright: 2px;
+-moz-border-radius-bottomright: 2px;
+-moz-border-radius-bottomleft: 2px;
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+border-bottom-left-radius: 2px;
+border: 10px solid rgba(255, 255, 255, 0.2);"></div>
+
+
+
+<script>
+jQuery(document).ready(function($) {
+	$("#lunaradio").lunaradio({
+		token: "",
+        userinterface: "big", 
+        backgroundcolor: "rgba(0,0,0,0.9)",
+        fontcolor: "#E6E8FA",
+        hightlightcolor: "#7FFF00",
+        fontname: "Iceberg-Regular", 
+        googlefont: "Iceberg-Regular", 
+        fontratio: "0.4", 
+        radioname: "PROGRAMA IDENTIDAD", 
+        scroll: "true", 
+        coverimage: "https://github.com/serviciosinformaticoselbachi/REPROTRUEQ/blob/master/IMAGES/IDENTIDAD%20LOGO.png?raw=true",
+        onlycoverimage: "false",
+        coverstyle: "square",
+        usevisualizer: "real", 
+        visualizertype: "4", 
+        itunestoken: "1000lIPN", 
+        metadatatechnic: "", 
+        ownmetadataurl: "", 
+        corsproxy: "false",
+        usestreamcorsproxy: "false",
+        streamurl: "https://ia902704.us.archive.org/18/items/servicioselbachi_05.June.2023_13.00/servicioselbachi_05.June.2023_13.00.mp3?cnt=0", 
+        streamtype: "shoutcast2", 
+        icecastmountpoint: "", 
+        radionomyid: "", 
+        radionomyapikey: "",
+        radiojarid: "",  
+        radiocoid: "",
+        shoutcastpath: "/stream",
+        shoutcastid: "1", 
+        streamsuffix: "", 
+        metadatainterval: "5000", 
+        volume: "100",
+        debug: "false",
+        autoplay: "true",
+        multicolorvisualizer: "false",
+        visualizeropacity: "1.0"
+	});
+});
+</script>
+
+<div id="capa1"> <div class="shared-panel">
+		<span><font color="#00FF00">Compartir</font color></span><br>
+		<a href="URL facebook" target="_blank" class="shared fb" title="Facebook"></a>	
+		<a href="URL Twitter" target="_blank" class="shared tt" title="Twitter"></a>
+		<a href="Url Google+" target="_blank" class="shared gp"  title="Google+"></a>
+		<a  data-action='share/whatsapp/share' class="shared wa" title="WhatsApp"></a>
+		<a href="URL Email" target="_blank" class="shared ce" id="sml" title="Email"></a></div>
+
+
+	
